@@ -1,8 +1,15 @@
-torch
-transformers
-xformers
-timm
-accelerate
-sentencepiece
-attrdict
-einops
+# Core libraries
+torch==2.1.2
+xformers==0.0.23.post1
+
+# Huggingface and model utilities
+transformers==4.39.3
+accelerate==0.28.0
+sentencepiece==0.1.99
+
+# Vision models
+timm==0.9.12
+
+# Utility libraries
+einops==0.7.0
+attrdict==2.0.1
